@@ -1,0 +1,895 @@
+
+
+html, body {
+    max-width: 100%;
+    overflow-x: hidden;
+ }
+
+ /* top section */
+ .static-header{    float: left;
+    width: 100%;
+    height: 70px;
+    z-index: 99;
+    position:relative;
+    margin: 0px;
+    padding: 0px;
+    background: white;
+    /* background: rgb(0, 0, 0); */
+}
+
+.static-header p {
+    float: left;
+    width: 100%;
+    color: #000;
+    /* color: rgb(255, 255, 255); */
+    font-size: 2rem;
+    line-height: 0.8rem;
+    text-align: center;
+    margin: 0px;
+    margin-top: 15px;
+    padding: 12px 0px;
+    font-weight: 600;
+}
+
+@media (max-width: 767px){
+    .static-header p {
+        float: left;
+        width: 100%;
+        margin: 0px;
+        padding: 6px 0px;
+        color: #fff;
+        font-size: 0.8rem;
+        line-height: 1.2rem;
+        text-align: center;
+    }
+}
+
+.navbar{
+    margin-right: 130px;
+    font-size: 1rem;
+    font-weight: 500;
+    color: #000;
+    font-family: "Nunito", sans-serif;
+    line-height: 1.5rem;
+    margin-bottom: 10px;
+    /* overflow: hidden; */
+}
+.start-form-sec .intro2 h1 {
+    font-size: 2.2rem;
+    font-weight: 800;
+    color: #000;
+    font-family: "Nunito", sans-serif;
+    line-height: 2.6rem;
+    margin-bottom: 10px;
+}
+.start-form-sec .intro2 p {
+    font-size: 1.2rem;
+    line-height: 1.2rem;
+}
+.start-form-sec{
+    position:absolute;
+    margin-top: -600px;
+}
+.start-form h3 {
+    font-size: 1.5rem;
+    font-weight: 800;
+    color: #000;
+    font-family: "Nunito", sans-serif;
+    line-height: 1.0;
+    /* margin-top: 55px; */
+}
+
+.start-form p {
+    font-size: 1rem;
+    line-height: 1.2rem;
+}
+
+.start-form {
+    margin-left: 20px;
+    
+}
+.start-form .form-element-input {
+    display: block;
+    width: 300px;
+    font-size: 1rem;
+    padding-top: -100px;
+    margin-bottom: 25px;
+    box-shadow: rgba(0, 0, 0, 0.16) 0px 3px 6px;
+    font-weight: 300;
+    height: 40px;
+    outline: none;
+    background: rgb(255, 255, 255);
+    padding: 11px 20px;
+    border-width: 1px;
+    border-style: solid;
+    border-color: rgb(240, 240, 240);
+    border-image: initial;
+    border-radius: 10px;
+    text-align: left;
+}
+.start-form{
+    margin-left: 20px;
+}
+.start-form .form-element-input {
+    width: 300px;
+}
+
+.d {
+    padding-left: 1px;
+}
+.start-form-sec .intro2 h1 {
+    font-size: 2.2rem;
+    font-weight: 800;
+    color: #000;
+    font-family: "Nunito", sans-serif;
+    line-height: 2.6rem;
+    margin-bottom: 10px;
+}
+.start-form-sec .intro2 p {
+    font-size: 1.2rem;
+    line-height: 1.2rem;
+}
+
+.s-start-form h3 {
+    font-size: 1.5rem;
+    font-weight: 800;
+    color: #000;
+    font-family: "Nunito", sans-serif;
+    line-height: 1.0;
+    /* margin-top: 55px; */
+}
+
+.s-start-form p {
+    font-size: 1rem;
+    line-height: 1.2rem;
+}
+
+.s-start-form {
+    margin-left: 20px;
+}
+
+
+.p {
+    font-family: Nunito, sans-serif;
+    font-size: 16px;
+    color: rgb(0, 0, 0);
+    line-height: 25px;
+    font-weight: normal;
+}
+
+.txt-right h4 {
+    text-align: right;
+}
+
+.txt-center h4 {
+    text-align: center;
+}
+
+.footer-padding {
+    padding-top: 50px;
+    padding-bottom: 25px;
+}
+
+.bg-color {
+    background-color: #000 !important;
+}
+
+.intro {
+    top: 295px;
+left: 1186px;
+width: 595px;
+height: 138px;
+color: var(--unnamed-color-000000);
+text-align: right;
+font: normal normal 800 54px/64px Nunito;
+letter-spacing: 0px;
+color: #000000;
+opacity: 1;
+}
+
+.features {
+    padding-right: 80px;
+    padding-left: 80px;
+}
+.features h2 {
+    font-size: 32px;
+    font-weight: 900;
+    color: #000;
+    font-family: "Nunito", sans-serif;
+    line-height: 1.0;
+}
+.features p {
+    font-family: "Nunito", sans-serif;
+    line-height: 1.0;
+    font-size: 16px;
+    color: #000;
+    line-height: 25px;
+    font-weight: normal;
+}
+
+.features h1 {
+    font-size: 1rem;
+    font-weight: 500;
+    color: #000;
+    font-family: "Nunito", sans-serif;
+    line-height: 1.5;
+}
+
+.features h5 {
+    font-size: 1.3rem;
+    font-weight: 800;
+    color: #000;
+    font-family: "Nunito", sans-serif;
+    line-height: 1.0;
+}
+.container {
+    width: 100%;
+    padding-right: 15px;
+    padding-left: 15px;
+    margin-right: auto;
+    margin-left: auto;
+    margin-bottom: -30px;
+}
+
+.m {
+    width: 5px;
+    height: 5px;
+}
+
+.header {
+    float: left;
+    width: 100%;
+    height: 510px;
+    position: relative;
+    background:#b5e0e8;
+}
+.header2 {
+    float: left;
+    width: 100%;
+    height: 570px;
+    position: relative;
+    background:#b5e0e8;
+}
+
+.main {
+    position: relative;
+    z-index: 99;
+}
+
+.main .main2 h1 {
+    font-size: 2rem;
+    font-weight: 800;
+    color: #000;
+    font-family: "Nunito", sans-serif;
+    line-height: 1.0;
+    margin-bottom: 0px;
+}
+
+.main .main2 p {
+    margin-bottom: 10px;
+    font-size: 2rem;
+    color: #000;
+    font-family: "Nunito", sans-serif;
+    line-height: 1.0;
+    margin-bottom: 0px;
+}
+
+.end-form {
+    float: left;
+    width: 100%;
+    height: 50px;
+    position: relative;
+    padding: 50px 0px;
+    margin: 0px;
+    background:#b5e0e8;
+    background-position: 0px -50px;
+}
+.main2 ul {
+    width: 100%;
+    background: transparent;
+    padding: 0;
+    margin-left: 30px;
+    margin-top: -15px;
+}
+.main2 ul li {
+    list-style-type: none;
+    line-height: 1.1;
+    text-align: left;
+    display: block;
+}
+.main2 ul li span {
+        transition: .3s;
+        font-family: "Nunito", sans-serif;
+        text-decoration: none;
+        font-weight: 1000;
+        color: #000;
+        font-size: 1.8rem;
+    
+}
+
+.main2 {
+    margin-left: 100px;
+    margin-top: -620px;
+    z-index: 98;
+    position: absolute;
+}
+
+.m {
+    padding-left: 0px;
+    width: 80px;
+    height: 80px;
+    background-color: #FDDA4C;
+    border: #fff solid 8px 8px 8px 1px;
+    border-radius: 5px;
+}
+.rect {
+    width: 90px;
+    height: 90px;
+}
+
+.item {
+    height: 120px;
+    width: 120px;
+    margin-left: 10px;
+    margin-right: 10px;
+    z-index: 1;
+}
+
+.item2 h5{
+    font-size: 1.4rem;
+    font-weight: 900;
+    color: #000;
+    font-family: "Nunito", sans-serif;
+    line-height: 1.0;
+}
+
+.item2 p{
+    font-size: 1rem;
+    font-weight: 500;
+    color: #000;
+    font-family: "Nunito", sans-serif;
+    line-height: 1.3;
+}
+h1, h2, h3, h4, h5, h6 {
+    font-family: "Nunito", sans-serif;
+    margin-top: 0px;
+    font-style: normal;
+    font-weight: 500;
+    text-transform: normal;
+}
+.intro2{
+    margin-top: 220px;
+    margin-left: -700px;
+    margin-right: 20px;
+    padding-right: 20px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+.s-start-form .form-element-input {
+    display: block;
+    width: 400px;
+    font-size: 1rem;
+    padding-top: -100px;
+    margin-bottom: 25px;
+    box-shadow: rgba(0, 0, 0, 0.16) 0px 3px 6px;
+    font-weight: 300;
+    height: 40px;
+    outline: none;
+    background: rgb(255, 255, 255);
+    padding: 11px 20px;
+    border-width: 1px;
+    border-style: solid;
+    border-color: rgb(240, 240, 240);
+    border-image: initial;
+    border-radius: 10px;
+    text-align: left;
+}
+
+.btn-black {
+    width: 200px;
+    color: rgb(255, 255, 255);
+    background-color: rgb(0, 0, 0);
+    border-color: rgb(0, 0, 0);
+    transition: all 0.4s ease 0s;
+    border-radius: 10px;
+}
+.s-btn-black {
+    width: 200px;
+    color: rgb(255, 255, 255);
+    background-color: rgb(0, 0, 0);
+    border-color: rgb(0, 0, 0);
+    transition: all 0.4s ease 0s;
+    border-radius: 10px;
+}
+.text-right {
+    text-align: right !important;
+    width: 400px;
+}
+
+.submit-form {
+    margin-top: 10px;
+    padding-top: 0px;
+    margin-bottom: 10px;
+    padding-left: 120px;
+}
+
+.submit-heading {
+    margin-top: 200px;
+    margin-bottom: 1px;
+}
+.submit-heading h2{
+    margin-top: 100px;
+    font-size: 1.8rem;
+    font-weight: 800;
+    line-height: 1.2;
+    color: #000;
+    font-family: "Nunito", sans-serif;
+}
+.submit-heading p{
+    margin-top: 10px;
+    font-size: 1rem;
+    font-weight: 300;
+    line-height: 1;
+    color: #000;
+    font-family: "Nunito", sans-serif;
+}
+.submit-form-sec {
+    margin-top: -10px;
+    padding-top: 0px;
+}
+
+.navbar .request-btn h6{
+    background: #000;
+    padding: 6px 10px;
+    color: #fff!important;
+    font-size: 1rem;
+    font-weight: 700;
+    border-radius: 10px;
+    margin-top: -10px;
+}
+
+.section-heading h2{
+    font-size: 32px;
+    font-weight: 900;
+    color: #000;
+    font-family: "Nunito", sans-serif;
+    line-height: 1.0;
+}
+
+.section-heading p{
+    font-size: 1.1rem;
+    font-weight: 500;
+    color: #000;
+    font-family: "Nunito", sans-serif;
+    line-height: 1.0;
+    float: left;
+    width: 100%;
+    margin: 10px 0 20px 0;
+    padding: 0px;
+}
+
+.section-heading h5{
+    float: left;
+    width: 100%;
+    margin: 50px 0 0 0;
+    padding: 0px;
+    font-size: 1.2rem;
+    font-weight: 800;
+    padding-top: 20px;
+}
+.section-heading h6{
+    font-weight: 500;
+    color: #000;
+    font-family: "Nunito", sans-serif;
+    line-height: 1.0;
+    float: left;
+    font-size: 0.9rem;
+    margin: 5px 0 0 0;
+    padding: 0px;
+}
+
+.submit {
+    margin-top: -150px;
+    padding-bottom: 80px;
+    /* background:#b5e0e8; */
+}
+
+.end-form-heading p{
+        margin-top: 10px;
+        font-size: 1.2rem;
+        font-weight: 500;
+        line-height: 1.2;
+        color: #000;
+        font-family: "Nunito", sans-serif;
+    
+}
+
+
+.end-form-heading h5{
+    margin-top: 10px;
+    font-size: 1.2rem;
+    font-weight: 800;
+    line-height: 1.2;
+    color: #000;
+    font-family: "Nunito", sans-serif;
+
+}
+
+.f-right {
+    float: right;
+}
+
+.row {
+    display: flex;
+    flex-wrap: wrap;
+    margin-right: -15px;
+    margin-left: -15px;
+}
+
+.logo {
+    width: 200px;
+    height: 200px;
+    margin-left: 0px;
+}
+
+
+.end-form-heading .section-heading .end-btn {
+    float: left;
+    width: 40%;
+    height: 45px;
+    margin: 0 15px 20px 0;
+    padding:10px 15px;
+    background-color: black;
+    color: white;
+    font-size: 1rem;
+    font-weight: 700;
+    border-radius: 18px;
+}
+
+.end-btn img {
+    float: left;
+    width: 30px;
+    height: 20px;
+    margin: 0 12px 0 0;
+    padding: 0px;
+}
+.end-btn {
+    float: left;
+    width: 40%;
+    height: 45px;
+    margin: 0 15px 20px 0;
+    padding:10px 15px;
+    background-color: black;
+    color: white;
+    font-size: 1rem;
+    font-weight: 700;
+    border-radius: 10px;
+}
+
+.sticky {
+    position: fixed;
+    top: 0;
+    width: 100%;
+  }
+
+.mb-50 {
+    margin-bottom: 50px;
+}
+.justify-content-between {
+    justify-content: space-between !important;
+}
+.d-flex {
+    display: flex !important;
+}
+.f-14-small {
+    font-size: 0.9rem;
+}
+.m-auto {
+    margin: auto !important;
+}
+.mb-4, .my-4 {
+    margin-bottom: 1.5rem !important;
+}
+
+@media (max-width: 767px){
+
+.nav{
+    display: none;
+}
+.sticky{
+    display: none;
+}
+}
+
+/* end form*/
+@media (max-width: 767px){
+.end-form {
+    background-position: inherit!important;
+}
+.section-heading {
+    text-align: center !important;
+}
+.section-heading h2 {
+    font-size: 28px;
+}
+.end-form .end-form-heading .section-heading p {
+    margin: 5px 0px 20px 0px;
+    font-size: 1rem;
+}
+.end-form .end-form-heading .section-heading .end-btn {
+    margin-bottom: 15px;
+    padding-left: 0px;
+    margin-left: 70px;
+    width: 220px;
+}
+.end-form .end-form-heading .section-heading .end-btn img {
+padding-right: 50px;
+}
+.end-form .end-form-heading .section-heading .end-btn h6 {
+    padding-bottom: 100px;
+    left: 100px;
+}
+.end-form-heading .section-heading .end-btn {
+    float: left;
+    width: 40%;
+    height: 45px;
+    margin: 0 15px 20px 0;
+    padding: 10px 15px;
+    background-color: black;
+    color: white;
+    font-size: 1.2rem;
+    font-weight: 700;
+    border-radius: 18px;
+}
+.end-btn .app{
+    /* float: none !important; */
+    display: block;
+    /* margin: px auto !important; */
+    /* padding: 10px 20px;
+    background-color: #000;
+    color: #fff;
+    border-radius: 10px; */
+    width: 45%;
+    margin-right: -100px;
+}
+.hide{
+    display: none;
+}
+
+.end-form .submit-form-sec {
+    width: 90%!important;
+}
+.submit-form {
+    margin-top: 0px!important;
+    float: left;
+    margin-left: 20px;
+}
+.s-start-form{
+    margin-left: -90px;
+}
+.s-start-form .form-element-input {
+    width: 300px;
+}
+.s-btn-black{
+    margin-left: -100px;
+    max-width: 300px;
+    margin-right: 100px;
+}
+}
+
+
+
+/*features*/
+@media (max-width: 767px){
+.features {
+    text-align: center !important;
+}
+.features h2 {
+    font-size: 28px;
+    margin-right: 0px;
+    padding-right: 0px;
+    padding-left: 0px;
+}
+.features-section .single-features {
+    margin-bottom: 0px !important;
+}
+}
+
+@media (max-width: 767px){
+    .s-start-form in {
+        width: 100px;
+    }
+}
+
+@media (max-width: 767px){
+    .start-form .form-element-input {
+        margin-left: 115px;
+        width: 300px;
+        margin-bottom: 10px;
+    }
+    .btn-black{
+        margin-left: -20px;
+        width: 300px;
+        margin-left: 115px;
+        margin-right: 70px;
+    }
+    .start-form{
+        margin-top: 300px;
+        margin-left: -90px;
+    }
+    .start-form h3{
+        margin-left: 120px;
+    }
+    .navbar{
+        display: none;
+    }
+    .main2{
+        margin-top: -350px;
+        margin-left: 10px;
+    }
+    .start-form-sec .intro2 h1{
+        margin-left: -10px;
+        float: left;
+        margin-top: 10px;
+        font-size: 34px;
+    }
+    .start-form-sec .intro2 p{
+        margin-left: -10px;
+        float: left;
+        font-size: 20px;
+    }
+}
+
+
+.nav{
+    /* background: white; */
+    color: black;
+    display: flex;
+    z-index: 99;
+}
+.nav .logo{
+    /* font-size: 24px;
+    padding: 20px;
+    margin-left: 25px */
+    /* margin-top: 10px;
+    width: 140px;
+    height: 120px;
+    margin-left: 70px;
+    z-index: 100; */
+    margin-top: 2px;
+    width: 140px;
+    height: 80px;
+    margin-left: 40px;
+    z-index: 100;
+} 
+.nav .logo a{
+    color: black;
+    text-decoration: none
+}
+.nav ul{
+    margin: 0;
+    padding: 0;
+    display: flex;
+    width: 75%;
+    margin-top: -70px;
+    margin-left: 700px;
+    margin-right: 30px;
+    z-index: 100;
+    font-size: 1.25rem;
+}
+.nav ul li{
+    padding: 5px;
+    list-style: none
+}
+.nav ul li a{
+    color:black;
+    display: block;
+    text-decoration: none;
+    /* font-weight: bold */
+}
+.nav ul h6{
+    margin-top: 25px;
+}
+
+.sticky{
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 15%;
+    background: white;
+}
+
+
+
+/* .navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 1rem 1rem;
+} */
+.hamburger {
+    display: none;
+}
+
+.bar {
+    display: block;
+    width: 25px;
+    height: 3px;
+    margin: 5px auto;
+    -webkit-transition: all 0.3s ease-in-out;
+    transition: all 0.3s ease-in-out;
+    
+    background-color: #101010;
+}
+.nav-menu {
+    display: flex;
+    /* justify-content: space-between; */
+    align-items: left;
+    padding-left: 30px;
+}
+
+.nav-item {
+    margin-left: 0rem;
+}
+
+.nav-link{
+    font-size: 1.2rem;
+    font-weight: 400;
+    color: #475569;
+}
+
+
+@media only screen and (max-width: 768px) {
+    .nav-menu {
+        position: fixed;
+        left: -100%;
+        top: 8rem;
+        flex-direction:column;
+        background-color: #fff;
+        width: 100%;
+        height: 320px;
+        border-radius: 10px;
+        text-align: left;
+        transition: 0.3s;
+        box-shadow: 0 10px 27px rgba(0, 0, 0, 0.05);
+    }
+
+    .nav-menu.active {
+        left: 0;
+        width: 400px;
+    }
+
+    .nav-item {
+        margin: 0rem 0;
+        margin-bottom: -20px;
+    }
+
+    .hamburger {
+        margin-left: 175px;
+        margin-top: 25px;
+        display: block;
+        cursor: pointer;
+    }
+    /* .header .nav .nav-menu-hide{
+        display: none;
+    } */
+    .header .nav .logo{
+        margin-left: 10px;
+    }
+    .header .nav ul h6{
+        display: none;
+    }
+}
+
+.questionmark {
+    margin-top: 10px;
+    height: 100px;
+    width: 100px;
+}
+.big5{
+    width: 300px;
+    height: 300px;
+    margin-left: 850px;
+    margin-top: -690px;
+}
