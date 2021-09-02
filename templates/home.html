@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Personality Prediction</title>
+</head>
+<body>
+<nav><a href="{% url 'head:head-home' %}">Home</a>
+<a href="{% url 'head:head-startquiz' %}">Quiz</a></nav>
+{% block content %}
+<form method="POST">{% csrf_token %}
+<div> 
+Enter Twitter ID :<input type="text" placeholder="@aditi"
+name="userid" required></input></div>
+<button type="submit">Submit for analysis </button>
+</form>
+{% if data != "" %}
+{% if data == "Invalid user id" %}
+<p>{{data}}</p>
+{% else %}
+<p>No. of Tweets : {{count}}</p>
+<p>Cleaned Tweets : {{data}}</p>
+{% endif %}
+{% endif %}
+{% endblock %}
+</body>
+</html>
