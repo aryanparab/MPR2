@@ -4,7 +4,7 @@
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
-    <link rel="stylesheet" href="style.css">   
+    <link rel="stylesheet" href="static/css/style.css">   
     <title>Index</title>
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.carousel.min.css" integrity="sha512-tS3S5qG0BlhnQROyJXvNjeEM4UpMXHrQfTGmbQ1gKmelCxlSEBUaxhRBj/EFTzpbP4RVSrpEikbmdJobCvhE3g==" crossorigin="anonymous" referrerpolicy="no-referrer" />
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.theme.default.min.css" integrity="sha512-sMXtMNL1zRzolHYKEujM2AqCLUR9F2C4/05cdbxjjLSRvMQIciEPCQZo++nk7go3BtSuK9kfa/s+a4f4i5pLkw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
@@ -12,25 +12,42 @@
   </head>
   
   <body>
+
       
     <section class="static-header">
         <p>PERSONALITY PREDICTION SYSTEM       
         </p>
-    </section>
+    </section>  <header id="section" class="header"> 
+             <div class="nav">
+                <div class="logo">
+                    <img src="images/person2.svg" alt="" class="logo">
+                </div>
+                <ul class="nav-menu nav-menu-hide">
+                    <li class="nav-item"><a href="{% url 'head:head-home' %}" class="nav-link">Personality Tests</a></li>
+                    <li class="nav-item"><a href="{% url 'head:head-startquiz' %}" class="nav-link">Myers Briggs Types</a></li>
+                    <li class="nav-item"><a href="#" class="nav-link">About Us</a></li>
+                </ul>
+      
+  </header>
+    <section >
+      <div class="row">
+                        <div class="col-lg-7 col-md-8 col-sm-8 col-xs-12">
+                    
+                </div>
 
-    <section class="header2">
-        <div class="end-form">
-            <div class="container ">
-                <div class="row d-flex justify-content-between ">
-                    <div class="col-xl-9 col-lg-8 ">
-                        <div class="end-form-heading">
-                            <div class="section-heading">
+                <div class="col-lg-5 col-md-4 col-sm-4 col-xs-12 mbl-bg">
+                    
+                    <div class="container">
+                    <div class="start-form-sec">
+                        <div class="intro2">
+
                                 <h2>Your personality is...</h2>
                                 <p>After analyzing your social media posts, the results show that your personality type is </p>
                                 
-        
-    <p>This means that...</p>
-
+        <p>No. of Tweets : {{count}}</p>
+        <p>Personality Type : {{data}}</p>
+        <p>This means that... </p>
+        <p>{{data_text}}</p>        
     
 </div>
                     </div>
