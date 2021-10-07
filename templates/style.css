@@ -241,7 +241,17 @@ opacity: 1;
     width: 100%;
     height: 510px;
     position: relative;
+    margin-bottom: -30px;
     background:#b5e0e8;
+}
+.header3 {
+    float: left;
+    width: 100%;
+    /* height: 510px; */
+    position: relative;
+    background:#b5e0e8;
+    
+    padding-top: 80px;
 }
 .header2 {
     float: left;
